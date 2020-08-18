@@ -15,7 +15,6 @@
   数据量=2^n
   $$
   
-
 * Hash表
 
   
@@ -26,7 +25,7 @@
 
   并且B树的所有索引都是唯一，不重复的
 
-  ![image-20200815191347862](/Users/xxp/Library/Application Support/typora-user-images/image-20200815191347862.png)
+  ![image-20200815191347862](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqqt3h4aj311w0de46p.jpg)
 
 * B+ Tree
 
@@ -54,7 +53,7 @@
 
   主键非主键差别不大（但是InnoDB是不一样的）
 
-  <img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815204412043.png" alt="image-20200815204412043" style="zoom:50%;" />
+  <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqqy6fovj30tc0myjy4.jpg" alt="image-20200815204412043" style="zoom:50%;" />
 
 * InnoDB（frm,ibd文件)
 
@@ -64,7 +63,7 @@
 
  3)  叶子节点上存储表中的所有数据
 
-<img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815204345711.png" alt="image-20200815204345711 " style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqr1gld7j311m0gg79z.jpg" alt="image-20200815204345711 " style="zoom:50%;" />
 
 4： 为什么必须要有主键，并且推荐使用整形的自增主键？
 
@@ -74,13 +73,13 @@
 
 5：为什么非主键索引结构叶子节点存储的是主键值？（一致性和节省存储空间）
 
-> <img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815205512684.png" alt="image-20200815205512684 " style="zoom:33%;" />
+> <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqr4r2p5j30we0de0xn.jpg" alt="image-20200815205512684 " style="zoom:33%;" />
 >
 > 非主键索引先根据非主键找到主键索引的ID，然后再根据主键索引ID再次查询。  为什么这样做是为了保持一致性，完整数据保持一份
 
 * 联合索引的底层存储结构长什么样？
 
-  <img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815210120560.png" alt="image-20200815210120560" style="zoom:33%;" />
+  <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqr8jmihj311y0fqaho.jpg" alt="image-20200815210120560" style="zoom:33%;" />
 
 逐个字段去比较大小，先比较10002，然后再比较staff,最后再比较1996-08-03
 

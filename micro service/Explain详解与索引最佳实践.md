@@ -1,6 +1,6 @@
 ## Explain 
 
-<img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815213006647.png" alt="image-20200815213006647" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqrcocxuj31aa0jadlg.jpg" alt="image-20200815213006647" style="zoom:50%;" />
 
 * simple : 简单查询，查询不包括子查询和union
 * Primary:   复杂查询中最外层的select
@@ -21,11 +21,11 @@
 
 #### 1
 
-<img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815215400752.png" alt="image-20200815215400752" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqriesnsj31900bqq6f.jpg" alt="image-20200815215400752" style="zoom:50%;" />
 
 > eq_ref 代表是按照主键关联，速度也是非常快的
 
 #### 2
 
-<img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200815215731324.png" alt="image-20200815215731324" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqrk9xrtj31aq088n0r.jpg" alt="image-20200815215731324" style="zoom:50%;" />
 

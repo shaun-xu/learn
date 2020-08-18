@@ -6,7 +6,7 @@
 
 ##  AMQP 核心概念
 
-<img src="/Users/xxp/Library/Application Support/typora-user-images/image-20200817154210006.png" alt="image-20200817154210006" style="zoom:30%;" />
+<img  src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghuqql6098j31es0lcajt.jpg"  alt="image-20200817154210006" style="zoom:30%;"   />
 
 ### 1） server
 
